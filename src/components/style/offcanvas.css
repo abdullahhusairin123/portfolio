@@ -1,0 +1,111 @@
+.mynavbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 100px;
+  backdrop-filter: blur(10px);
+  border-bottom: 2px solid grey;
+}
+
+.mynavbar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  transition: 0.5s;
+}
+
+.mynavbar:hover:before {
+  left: 100%;
+}
+
+.navbar-header {
+  color: #fff;
+  font-family: Libre Baskerville;
+  font-size: 26px;
+  font-weight: 900;
+  text-shadow: 1px 1px 2px #000;
+  margin-top: 10px;
+}
+
+nav a {
+  color: #fff;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px #000;
+  position: relative;
+  display: inline-block;
+  transition: opacity 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #4171ff;
+}
+
+.custom-search {
+  width: 300px;
+  border: 0;
+}
+
+.custom-search:focus {
+  box-shadow: none;
+}
+
+/* laptop */
+@media (max-width: 992px) {
+  .navbar-header {
+    color: #fff;
+  }
+
+  .nav-title-link {
+    color: #000;
+  }
+}
+
+/* tablet */
+
+@media (max-width: 756px) {
+  .navbar-header {
+    color: #fff;
+  }
+
+  .nav-title-link {
+    color: #000;
+  }
+}
+
+/* mobile */
+@media only screen and (max-width: 575px) {
+  .mynavbar {
+    padding: 20px 10px;
+    background-color: transparent;
+  }
+
+  .offcanvas-header {
+    color: #000;
+    font-family: Libre Baskerville;
+    font-size: 26px;
+    font-weight: 900;
+    margin-top: 10px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav a {
+    color: #000;
+    text-shadow: none;
+  }
+}

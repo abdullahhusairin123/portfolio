@@ -1,0 +1,462 @@
+/* HERO  START */
+a {
+  text-decoration: none;
+}
+
+.bg-hero {
+  position: relative;
+  height: auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-hero {
+  color: #fff;
+  font-family: Libre Baskerville;
+  font-size: 100px;
+  font-weight: 900;
+}
+
+.title-hero {
+  color: #000;
+  width: 200px;
+  text-align: center;
+  font-family: Libre Baskerville;
+  font-size: 30px;
+  font-weight: 900;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.title-hero:hover {
+  background: #b0b0b0;
+}
+
+.title-hero:active {
+  color: #fff;
+}
+
+/* HERO END */
+
+/* ABOUT START */
+
+.hero-section {
+  display: flex;
+  width: 900px;
+  margin-bottom: 10px;
+  padding-top: 6rem;
+  justify-content: space-between;
+}
+
+h3 {
+  color: #2a4aa9;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+h1 {
+  color: #000;
+  font-family: Lato;
+  font-size: 46px;
+  font-weight: 700;
+}
+
+p {
+  color: #000;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.button-hub {
+  color: #fff;
+  width: 200px;
+  height: 50px;
+  border: 0;
+  border-radius: 30px;
+  background-color: #2a4aa9;
+}
+
+.button-hub:hover {
+  color: #000;
+  background-color: #b0b0b0;
+}
+
+.foto-profil {
+  width: 300px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 10px 10px 40px 0px rgba(0, 0, 0, 0.25);
+}
+
+.about-header {
+  width: 500px;
+}
+
+.about-sosial {
+  width: 300px;
+}
+
+.logo-sosial {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo-sosial:hover {
+  background: #b0b0b0;
+  border: 0;
+}
+
+.hobby {
+  width: 900px;
+  margin-bottom: 50px;
+  padding-top: 3rem;
+}
+
+.header-hobby {
+  text-align: center;
+  color: #2a4aa9;
+  font-family: Lato;
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.paragraf-hobby {
+  color: #000;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* ABOUT END */
+
+/* SECTION PROJECT START */
+
+.header-portfolio {
+  padding-top: 6rem;
+  font-size: 46px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  font-family: Libre Baskerville;
+}
+
+.body-project {
+  display: flex;
+  justify-content: center;
+  width: 950px;
+  gap: 20px;
+}
+
+.project {
+  width: 550px;
+  height: 270px;
+  border-radius: 10px;
+}
+
+.header-project {
+  color: #fff;
+  font-family: Lato;
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.paragraf-project {
+  color: #fff;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 50px;
+  text-align: justify;
+}
+
+.myswiper-slide {
+  background-position: center;
+}
+
+/* SECTION PROJECT END */
+
+/* SECTION KERJASAMA START */
+
+h2 {
+  padding-top: 6rem;
+  font-size: 46px;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  font-family: Libre Baskerville;
+}
+
+.swiper {
+  width: 95%;
+  height: 150px;
+  margin-bottom: 5rem;
+}
+
+.img-carousel {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #d6d6d6;
+  border-radius: 20px;
+}
+
+.paragraf-sponsored {
+  color: #000;
+  width: 350px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.sponsored {
+  width: 150px;
+  height: auto;
+}
+
+/* SECTION KERJASAMA END */
+
+/* SECTION LOKASI START */
+.header-lokasi {
+  padding-top: 6rem;
+  font-size: 46px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  font-family: Libre Baskerville;
+}
+
+.google-maps {
+  position: relative;
+  width: 70%;
+  height: 20rem;
+  overflow: hidden;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+.google-maps::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+}
+
+/* SECTION LOKASI END */
+
+/* SECTION FORM START */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+.header-form {
+  padding-top: 50px;
+  font-size: 46px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #000;
+  text-align: center;
+  font-family: Libre Baskerville;
+}
+
+.form-name {
+  width: 700px;
+  margin-bottom: 20px;
+}
+
+.form-name:focus {
+  box-shadow: none;
+  border: 1px solid #000;
+}
+
+.button-form {
+  border: 0;
+  color: #fff;
+  width: 300px;
+  height: 45px;
+  border-radius: 30px;
+  background-color: #2a4aa9;
+}
+/* SECTION FORM END */
+
+.custom-icon {
+  position: fixed;
+  color: #fff;
+  bottom: 2rem;
+  right: 2rem;
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+  mix-blend-mode: difference;
+  animation: rotating 4s linear infinite;
+  transform-origin: center;
+  line-height: 0;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* MEDIA QUERY */
+
+/* laptop */
+@media (max-width: 992px) {
+}
+
+/* tablet */
+
+@media (max-width: 756px) {
+}
+
+/* mobile */
+@media (max-width: 575px) {
+  /* HERO START */
+
+  .header-hero {
+    display: flex;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .title-hero {
+    width: 150px;
+    font-size: 25px;
+  }
+
+  /* HERO  END*/
+
+  /* ABOUT START */
+
+  .hero-section {
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -30px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .button-hub {
+    margin-bottom: 30px;
+  }
+
+  .foto-profil {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .about-header {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .about-sosial {
+    width: 100%;
+    margin-bottom: 70px;
+  }
+
+  .logo-sosial {
+    flex-direction: column;
+  }
+
+  .hobby {
+    width: 100%;
+  }
+
+  /* ABOUT END */
+
+  /* SECTION PROJECT START */
+
+  .body-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    gap: 20px;
+  }
+
+  .project {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .header-project {
+    font-size: 40px;
+    padding: 10px;
+  }
+
+  .paragraf-project {
+    padding: 10px;
+  }
+
+  /* SECTION PROJECT END */
+
+  /* SECTION KERJASAMA START */
+
+  .group-sponsored {
+    flex-direction: column;
+    height: auto;
+    gap: 50px;
+  }
+
+  /* SECTION KERJASAMA END */
+
+  /* SECTION LOKASI START */
+
+  .google-maps {
+    width: 95%;
+  }
+
+  /* SECTION LOKASI END */
+
+  /* SECTION FORM START */
+
+  .form-name {
+    width: 100%;
+  }
+  /* SECTION FORM END */
+}
